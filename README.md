@@ -58,3 +58,13 @@ python3 extract_metadata.py --help
 - CRC verification is supported and enabled by default.
 - Metadata size and file size limits are enforced for safe operation.
 - Non-sysupgrade images are surfaced as `needs_fallback` (not silently accepted).
+
+## Real OpenWrt test run
+
+The script was executed against:
+
+`openwrt-24.10.0-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin`
+
+It successfully extracted `metadata_version`, `supported_devices`, and version metadata.
+
+![Terminal output of real OpenWrt run](docs/example-run.png)

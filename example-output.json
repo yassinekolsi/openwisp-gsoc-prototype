@@ -1,0 +1,23 @@
+{
+  "chunk_crc_valid": true,
+  "file_size": 6947141,
+  "message": "fwtool metadata extracted successfully",
+  "metadata": {
+    "compat_version": "1.0",
+    "metadata_version": "1.1",
+    "supported_devices": [
+      "tplink,archer-c7-v2",
+      "archer-c7"
+    ],
+    "version": {
+      "board": "tplink_archer-c7-v2",
+      "dist": "OpenWrt",
+      "revision": "r28427-6df0e3d02a",
+      "target": "ath79/generic",
+      "version": "24.10.0"
+    }
+  },
+  "metadata_version": "1.1",
+  "source_path": "openwrt-sysupgrade.bin",
+  "status": "success"
+}
